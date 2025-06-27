@@ -9,7 +9,6 @@ A good byline could be used in every Python analytics project we do.
 
 Author: Molly Shelhamer
 
-TODO: Remove these TODOS after you have completed them.
 """
 
 #####################################
@@ -47,27 +46,24 @@ permit_acceptance_rate: list = [89.3, 92.9, 94.5, 84.1, 91.8]
 client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
-# TODO: REPLACE the variable name, e.g. client_satisfaction_scores with your own numeric list variable name in all 4 lines below:
 min_score: float = min(permit_acceptance_rate)  
 max_score: float = max(permit_acceptance_rate)  
 mean_score: float = statistics.mean(permit_acceptance_rate)  
 stdev_score: float = statistics.stdev(permit_acceptance_rate)
 
 # Use a Python formatted string (f-string) to show information
-# TODO: Modify the TEXT in the byline to describe your information
-# TODO: Modify the VARIABLE NAMES in the byline to use your variable names
 byline: str = f"""
 ---------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
+PA Permits: Making Quality Maps
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+Has Municipal Clients:      {has_municipal_clients}
+Number of Employees:        {number_of_employees}
+Map Types Offered:          {map_types_offered}
+Permit Acceptance Rates:    {permit_acceptance_rate}
+Minimum Acceptance Rate:    {min_score}
+Maximum Acceptance Rate:    {max_score}
+Mean Acceptance Rate:       {mean_score:.2f}
+Standard Deviation of Acceptance Rates: {stdev_score:.2f}
 """
 
 #####################################
