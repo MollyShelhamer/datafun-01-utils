@@ -48,10 +48,10 @@ client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: REPLACE the variable name, e.g. client_satisfaction_scores with your own numeric list variable name in all 4 lines below:
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_score: float = min(permit_acceptance_rate)  
+max_score: float = max(permit_acceptance_rate)  
+mean_score: float = statistics.mean(permit_acceptance_rate)  
+stdev_score: float = statistics.stdev(permit_acceptance_rate)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the TEXT in the byline to describe your information
