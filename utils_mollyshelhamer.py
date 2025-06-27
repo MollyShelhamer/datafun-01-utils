@@ -31,7 +31,7 @@ has_municipal_clients: bool = True
 has_international_clients: bool = True
 
 # declare integer variables
-# TODO: Add another integer variable before this one
+number_of_employees: int = 50
 years_in_operation: int = 10
 
 # declare a floating point variables
