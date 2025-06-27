@@ -35,15 +35,15 @@ number_of_employees: int = 50
 years_in_operation: int = 10
 
 # declare a floating point variables
-# TODO: Add another of floating point variable before this one
+average_deliverable_turnaround_hours: float = 4.7
 average_client_satisfaction: float = 4.7
 
 # declare lists of strings
-# TODO: Add another list of strings before this one
+map_types_offered: list = ["Permit", "Location", "Utility"]
 skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
 
 # declare lists of numbers to illustrate statistics skills
-# TODO: Add another numeric list before this one
+permit_acceptance_rate: list = [89.3, 92.9, 94.5, 84.1, 91.8]
 client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
