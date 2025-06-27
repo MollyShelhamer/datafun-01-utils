@@ -1,5 +1,5 @@
 """
-File: utils_case.py
+File: utils_mollyshelhamer.py
 
 Purpose: Reusable Module for My Analytics Projects
 
@@ -7,10 +7,8 @@ Description: This module provides a byline for my analytics projects.
 When we work hard to write useful code, we want it to be reusable.
 A good byline could be used in every Python analytics project we do.
 
-Author: Denise Case
+Author: Molly Shelhamer
 
-TODO: Change the module name in this opening docstring to use your name instead of case. 
-TODO: Change the author in this opening docstring to your name or alias. 
 TODO: Remove these TODOS after you have completed them.
 """
 
@@ -29,7 +27,7 @@ import statistics
 #####################################
 
 # declare a boolean variables (have a value True or False)
-# TODO: Add another boolean variable before this one
+has_municipal_clients: bool = True
 has_international_clients: bool = True
 
 # declare integer variables
